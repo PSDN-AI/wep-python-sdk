@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "poseidon-wep-sdk-pkg"
+version = "0.0.1"
+description = "Poseidon WEP SDK"
+requires-python = ">=3.9"
+readme = ""
+authors = [{ name = "Poseidon", email = "devnull@example.com" }]
+dependencies = []
+
+[tool.setuptools]
+zip-safe = true
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["poseidon_wep_sdk_pkg*"]
+
