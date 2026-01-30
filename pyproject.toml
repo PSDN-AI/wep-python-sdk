@@ -1,6 +1,6 @@
 [project]
 name = "poseidon-wep-sdk"
-version = "0.1.0"
+version = "0.2.0"
 description = "Poseidon Subnet Worker Execution Process (WEP) SDK for building decentralized compute workflows"
 readme = "README.md"
 license = { text = "MIT" }
@@ -42,7 +42,7 @@ build-backend = "setuptools.build_meta"
 
 [tool.setuptools.packages.find]
 where = ["."]
-include = ["poseidon_wep_sdk_pkg*"]
+include = ["poseidon_wep_sdk*"]
 
 [tool.setuptools.package-data]
-poseidon_wep_sdk_pkg = ["**/*.proto", "**/*.json"]
+poseidon_wep_sdk = ["**/*.proto", "**/*.json"]
