@@ -26,3 +26,7 @@ htmlcov/
 
 # Lock files (optional - remove if you want to track)
 # uv.lock
+
+# AI assistant config
+CLAUDE.md
+AGENTS.md
